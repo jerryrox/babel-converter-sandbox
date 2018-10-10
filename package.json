@@ -1,0 +1,14 @@
+{
+  "name": "babel-converter-sandbox",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "scripts": {
+    "compile": "babel src -d build",
+    "clear": "rm -r ./src; rm -r ./build; mkdir ./src; mkdir ./build"
+  }
+}

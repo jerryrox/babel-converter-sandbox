@@ -10,5 +10,5 @@ Install the node modules first
 Clear all script files  
 `npm clear`  
   
-Compile all scripts inside ./src directory
+Compile all scripts inside ./src directory  
 `npm compile`  
